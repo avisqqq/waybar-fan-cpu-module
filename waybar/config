@@ -1,0 +1,12 @@
+
+"custom/cpu_full":{
+  "exec": "/usr/local/bin/cpu_info.sh",
+  "interval": 2,
+  "return-type": "json",
+  "tooltip": false
+},
+"cpu": {
+  "format": " {usage}%",
+  "interval": 2,
+  "tooltip": false
+},
