@@ -12,9 +12,12 @@ Useful for laptops with dual fans.
 ```bash
 sudo pacman -S lm_sensors cpupower
 sudo sensors-detect
-#2. Install the script
+```
+### 2. Install the script
+```
 sudo cp scripts/cpu_info.sh /usr/local/bin/cpu_info.sh
 sudo chmod +x /usr/local/bin/cpu_info.sh
-#3. Add waybar/config to Waybar (~/.config/waybar/config)
 ```
+### 3. Add waybar/config to Waybar (~/.config/waybar/config)
+### Output:
 ![Waybar](waybar.png)
